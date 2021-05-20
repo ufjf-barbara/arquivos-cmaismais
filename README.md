@@ -29,7 +29,7 @@ A operação de fechamento de arquivo desassocia o arquivo do stream
 Libera a memória (equivalente ao free p/ memória alocada dinamicamente) 
 Se um arquivo aberto para escrita for fechado, o conteúdo de seu buffer associado é escrito no arquivo para evitar perda de conteúdo
 
-## :octocat: Em C
+## 🗄: Atividade
 
 Em C, cada stream associado a um arquivo tem uma estrutura de controle de arquivo do tipo FILE 
 Essa estrutura é definida no cabeçalho stdio.h, que deve ser incluído em todos os programas que manipulam arquivos
